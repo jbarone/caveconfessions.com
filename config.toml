@@ -2,7 +2,7 @@ baseurl = "http://caveconfessions.com/"
 languageCode = "en-us"
 title = "Cave Confessions"
 paginate = 5
-Copyright = "All rights reserver &copy; 2015"
+Copyright = "All rights reserved - 2015"
 
 [params]
     description = "Out of the mouths of caves"
@@ -11,4 +11,4 @@ Copyright = "All rights reserver &copy; 2015"
     logo = "images/profile.png"
 
 [permalinks]
-    pos = "/:slug/"
+    post = "/:slug/"
