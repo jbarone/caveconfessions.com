@@ -3,6 +3,7 @@ date = "2014-08-15T07:47:00"
 draft = "false"
 title = "I ❤ Vim"
 slug = "i-heart-vim"
+tags = ["vi", "vim", "programming"]
 
 +++
 

@@ -4,6 +4,7 @@ draft = "false"
 title = "Make The Web SQueaL"
 slug = "make-the-web-squeal"
 image = "/content/images/2014/Nov/SQueaL_Talk.jpg"
+tags = ["NolaSec", "SQL Injection", "Public Speaking"]
 
 +++
 
