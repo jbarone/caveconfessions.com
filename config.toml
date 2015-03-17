@@ -3,6 +3,7 @@ languageCode = "en-us"
 title = "Cave Confessions"
 paginate = 5
 Copyright = "All rights reserved - 2015"
+DisqusShortname = "caveconfessions"
 
 [params]
     description = "Out of the mouths of caves"
