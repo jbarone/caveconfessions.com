@@ -33,7 +33,7 @@ different conferences. I finally had a talked accepted and very much look
 forward to giving it, which I plan to write up that experience in another post.
 
 In the last few weeks I have also joined up with [Operation
-Spark](http://oerationspark.org) and are teaching with them. This is super
+Spark](http://operationspark.org) and are teaching with them. This is super
 exciting for me, since the audience for this group is at-risk teens. I'm
 working with an amazing group of guys. And we are teaching a group of kids that
 are really sharp and are soaking up everything we share with them. So far it's
