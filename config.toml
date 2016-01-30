@@ -1,6 +1,7 @@
 baseurl = "http://caveconfessions.com/"
 languageCode = "en-us"
 title = "Cave Confessions"
+theme = "casper"
 paginate = 5
 Copyright = "All rights reserved - 2015"
 DisqusShortname = "caveconfessions"
