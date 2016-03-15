@@ -3,14 +3,35 @@ languageCode = "en-us"
 title = "Cave Confessions"
 theme = "casper"
 paginate = 5
-Copyright = "All rights reserved - 2015"
+Copyright = "All rights reserved - 2016"
 DisqusShortname = "caveconfessions"
 
+[author]
+    name = "Joshua Barone"
+    github = "jbarone"
+    twitter = "tygarsai"
+    thumbnail = "images/profile.png"
+    link = "http://caveconfessions.com"
+
 [params]
+    # Date format, used by several themes
+    DateForm = "Mon, Jan 2, 2006"
+    DateFormat = "Mon, Jan 2, 2006"
     description = "Out of the mouths of caves"
     cover = "images/cover.jpg"
     author = "Joshua Barone"
+    authorlocation = "Louisiana, USA"
     logo = "images/profile.png"
+    bio = "Fun Loving Guy"
+    githubName = "jbarone"
+    twitterName = "tygarsai"
+    github = "jbarone"
+    twitter = "tygarsai"
+    email = "joshua.barone@gmail.com"
+    hideHUGOSupport = false
+    authorwebsite = "http://caveconfessions.com"
+    blogHeader = "Cave Confessiosn"
+    tagline = "Out of the mouths of caves"
 
 [permalinks]
     post = "/:slug/"

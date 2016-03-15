@@ -531,6 +531,10 @@ body.nav-opened .site-wrapper {
     font-family: 'Open Sans', sans-serif;
 }
 
+.main-header-content a {
+    text-decoration: none;
+}
+
 /* Navigation */
 body.nav-opened .nav-cover {
     position: fixed;
