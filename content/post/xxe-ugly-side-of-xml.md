@@ -44,9 +44,7 @@ acceptable tags in the page:
 		<title>Page Title</title>
 	</head>
 
-	<body bgcolor="#FFFFFF"
-		    link="#000000"
-		    text="red">
+	<body bgcolor="#FFFFFF" link="#000000" text="red">
 		<p>Page Content</p>
 	</body>
 </html>

@@ -3,12 +3,14 @@ author = "Joshua Barone"
 comments = true
 date = "2016-03-20T15:25:11-04:00"
 draft = false
-image = ""
 menu = ""
 share = true
 slug = "about"
 tags = []
 title = "About Me"
+image = "/images/about_cover.png"
+index = true
+description = "“There are only two mistakes one can make along the road to truth; not going all the way, and not starting.” - Buddha"
 
 +++
 
