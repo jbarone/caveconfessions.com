@@ -22,7 +22,7 @@ DisqusShortname = "caveconfessions"
     author = "Joshua Barone"
     authorlocation = "Louisiana, USA"
     logo = "images/profile.png"
-    bio = "Fun Loving Guy"
+    bio = "Code Monkey and Security Aficionado"
     githubName = "jbarone"
     twitterName = "tygarsai"
     github = "jbarone"
@@ -35,3 +35,13 @@ DisqusShortname = "caveconfessions"
 
 [permalinks]
     post = "/:slug/"
+
+[[menu.main]]
+    name = "Blog"
+    weight = -120
+    url = "/"
+
+[[menu.main]]
+    name = "About Me"
+    weight = 100
+    url = "/about/"

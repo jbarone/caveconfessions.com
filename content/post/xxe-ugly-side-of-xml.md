@@ -12,8 +12,10 @@ title = "XXE - The Ugly Side of XML"
 The eXtensible Markup Language (XML) has a very long and lustrious reputation
 for being he go-to language for storing and transferring self describing data.
 Unfortunately though, XML's root have presented a problem that can plauge many
-improperly configured parsers. This problem is eXternal XML Entity attacks
-(XXE).
+improperly configured parsers. This problem is known as eXternal XML Entity
+attacks (XXE).
+
+<!--more-->
 
 ## Extensible Markup Language (XML)
 
