@@ -25,6 +25,6 @@ software development methodologies, and development environments and tools.
 
 I hold a collection of certifications including Certified Information System
 Security Professional (CISSP), GIAC Security Essentials (GSEC), GIAC Certified
-Incident Handler (GCIH), and GIAC Certified Web Application Penetration Tester
-(GWAPT). I also have my Masters of Computer Science from the University of
-New Orleans.
+Intrusion Analyst (GCIA), GIAC Certified Incident Handler (GCIH), and 
+GIAC Certified Web Application Penetration Tester (GWAPT). I also have my 
+Masters of Computer Science from the University of New Orleans.
