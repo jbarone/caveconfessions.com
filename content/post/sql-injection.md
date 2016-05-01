@@ -1,7 +1,7 @@
 +++
 comments = true
 date = "2016-05-01T00:00:00-05:00"
-draft = true
+draft = false
 image = ""
 share = true
 slug = "sql-injection"
