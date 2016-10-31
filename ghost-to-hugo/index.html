@@ -1,0 +1,347 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+
+  	<meta property="og:title" content=" Ghost to Hugo &middot;  Cave Confessions" />
+  	<meta property="og:site_name" content="Cave Confessions" />
+  	<meta property="og:url" content="http://caveconfessions.com/ghost-to-hugo/" />
+
+    
+  	<meta property="og:type" content="article" />
+
+    <meta property="og:article:published_time" content="2015-03-15T10:35:29-05:00" />
+
+    
+    <meta property="og:article:tag" content="Ghost" />
+    
+    <meta property="og:article:tag" content="Hugo" />
+    
+    <meta property="og:article:tag" content="Blog" />
+    
+    
+
+  <title>
+     Ghost to Hugo &middot;  Cave Confessions
+  </title>
+
+    <meta name="description" content="Out of the mouths of caves" />
+
+    <meta name="HandheldFriendly" content="True" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="shortcut icon" href="http://caveconfessions.com/images/favicon.ico">
+	  <link rel="apple-touch-icon" href="http://caveconfessions.com/images/apple-touch-icon.png" />
+
+    <link rel="stylesheet" type="text/css" href="http://caveconfessions.com/css/screen.css" />
+    <link rel="stylesheet" type="text/css" href="http://caveconfessions.com/css/nav.css" />
+    <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Merriweather:300,700,700italic,300italic|Open+Sans:700,400|Inconsolata" />
+
+
+    
+      
+          <link href="http://caveconfessions.com/index.xml" rel="alternate" type="application/rss+xml" title="Cave Confessions" />
+      
+      
+    
+    <meta name="generator" content="Hugo 0.18-DEV" />
+
+    <link rel="canonical" href="http://caveconfessions.com/ghost-to-hugo/" />
+
+    
+
+    
+    <link rel="stylesheet" href="https://yandex.st/highlightjs/8.0/styles/default.min.css">
+    <script src="https://yandex.st/highlightjs/8.0/highlight.min.js"></script>
+    <script>hljs.initHighlightingOnLoad();</script>
+</head>
+<body class="nav-closed">
+
+  <div class="nav">
+    <h3 class="nav-title">Menu</h3>
+    <a href="#" class="nav-close">
+        <span class="hidden">Close</span>
+    </a>
+    <ul>
+        
+        
+        
+            
+            <li class="nav-opened" role="presentation">
+            	<a href="/">Blog</a>
+            </li>
+        
+            
+            <li class="nav-opened" role="presentation">
+            	<a href="/about/">About Me</a>
+            </li>
+        
+    </ul>
+    
+    
+    <a class="subscribe-button icon-feed" href="http://caveconfessions.com/index.xml">Subscribe</a>
+    
+</div>
+<span class="nav-cover"></span>
+
+
+ <div class="site-wrapper">
+
+
+
+
+<header class="main-header post-head no-cover">
+  <nav class="main-nav clearfix">
+
+
+  
+      <a class="blog-logo" href="http://caveconfessions.com/"><img src="http://caveconfessions.com/images/profile.png" alt="Home" /></a>
+  
+  
+      <a class="menu-button" href="#"><span class="burger">&#9776;</span><span class="word">Menu</span></a>
+  
+  </nav>
+</header>
+
+
+
+<main class="content" role="main">
+
+
+
+
+  <article class="post post">
+
+    <header class="post-header">
+        <h1 class="post-title">Ghost to Hugo</h1>
+        <small></small>
+
+        <section class="post-meta">
+        
+          <time class="post-date" datetime="2015-03-15T10:35:29-05:00">
+            Mar 15, 2015
+          </time>
+        
+         
+          <span class="post-tag small"><a href="http://caveconfessions.com/tags/ghost/">#Ghost</a></span>
+         
+          <span class="post-tag small"><a href="http://caveconfessions.com/tags/hugo/">#Hugo</a></span>
+         
+          <span class="post-tag small"><a href="http://caveconfessions.com/tags/blog/">#Blog</a></span>
+         
+        </section>
+    </header>
+
+    <section class="post-content">
+      
+
+<p>I recently converted my blog from using <a href="https://ghost.org/" title="Ghost">Ghost</a> to
+<a href="http://gohugo.io/" title="Hugo">Hugo</a>. I made the decision to do this for a few
+reasons, which I&rsquo;ll explain below. As well as the process I used to do the
+conversion.</p>
+
+<h2 id="why-leave-ghost">Why Leave Ghost?</h2>
+
+<p>Don&rsquo;t get me wrong. I really liked Ghost. I think it was constructed really
+well with bloggers in mind. It comes with extremely pretty, functional,
+responsive designs that just work right out of the box. I found Ghost really
+easy to manage and using markdown for the posts just made writing fun. So why
+am I leaving? Well the biggest reason for me was security. I don&rsquo;t really have
+time to keep up with my server the way that I wanted and needed to make sure
+that I have all the latest and greatest patches for node.js and Ghost. So I
+made the decision to go with a static site generator instead.</p>
+
+<p>With a static site generator, I&rsquo;m only serving up static html and resources.
+This eliminates a lot of possible vulnerabilities and need for maintenance out
+of the gate. So I found this very appealing. And hence the move.</p>
+
+<h2 id="why-hugo">Why Hugo?</h2>
+
+<p>I&rsquo;ll be honest, Hugo was not the first static site generator that I tried. My
+first attempt was really with using <a href="http://getnikola.com/">Nikola</a>. Being a
+huge fan and daily user of Python this just felt like the natural choice. I
+quickly decided though that this was not the platform for me. I found it a bit
+hard to get my head around, and even harder to port my current blog design
+over. Themes really seem to be where Nikola is lacking. I think if there was a
+better repository for them it might be a better choice. Though while trying to
+find a port of the Casper theme, the theme used by ghost, I discovered a
+<a href="https://github.com/vjeantet/hugo-theme-casper">ported theme</a> for Hugo. So this
+led me to looking into Hugo. First thing I found is that it was written in Go.
+This was pretty awesome since I have started learning and working with Go and
+really just falling in love with it. I installed it and tried it out. It just
+worked and felt right.</p>
+
+<h2 id="the-move">The Move</h2>
+
+<p>I had been using Ghost for a while and so had a few posts that needed to move
+with me to Hugo. To make that happen I had to get creative. I found a post on
+the blog of the author of the Hugo Casper theme that talked about moving from
+Ghost to Hugo so I read it. I found that he had used php script to take the
+data from the Ghost export and create the markdown files used by Ghost. This
+seemed like an easy enough proposal. However, I&rsquo;m not really a big fan of php
+(a long story for another time). So I figured I would do a quick port of the
+script to Python so I could get up and running quickly. The php script on the
+blog didn&rsquo;t work without some help, the format of the json that Ghost exported
+seemed to have changed since the script was created. After a few minutes and
+few false starts I created the script:</p>
+
+<pre><code>#!/usr/bin/env python
+
+import json
+import datetime
+
+with open('GhostData.json', 'rb') as data_file:
+    ghost_data = json.load(data_file)
+
+posts = ghost_data['db'][0]['data']['posts']
+
+for post in posts:
+    created_at = datetime.datetime.fromtimestamp(
+        post['created_at']/1000).isoformat()
+    title = post['title']
+    slug = post['slug']
+    markdown = post['markdown']
+    draft = 'false' if post['published_at'] else 'true'
+    published_at = (
+        datetime.datetime.fromtimestamp(
+            post['published_at']/1000).isoformat()
+        if post['published_at']
+        else datetime.datetime.fromtimestamp(
+            post['created_at']/1000).isoformat()
+    )
+
+    with open('output/%s.md' % slug, 'w') as post_file:
+        post_file.write('+++\n')
+        post_file.write('date = &quot;%s&quot;\n' %
+                        published_at.encode('utf8'))
+        post_file.write('draft = &quot;%s&quot;\n' % draft.encode('utf8'))
+        post_file.write('title = &quot;%s&quot;\n' % title.encode('utf8'))
+        post_file.write('slug = &quot;%s&quot;\n\n' % slug.encode('utf8'))
+        post_file.write('+++\n\n')
+        post_file.write(markdown.encode('utf8'))
+</code></pre>
+
+<p>After that, simply moved the files from <code>output</code> to <code>content/post</code> and run
+<code>hugo</code>, and BAM I had a blog.</p>
+
+<h2 id="publishing">Publishing</h2>
+
+<p>With the move to the static site, I also decided to make publishing my blog
+posts easier. To accomplish this I setup a git repository on my server and
+configured a post-receive hook that would deploy my site for me.</p>
+
+<pre><code>#!/bin/bash
+
+DEPLOY_DIR=&lt;deploy directory&gt;
+
+GIT_WORK_TREE=&quot;$DEPLOY_DIR&quot; git checkout -f
+
+cd &quot;$DEPLOY_DIR&quot; &amp;&amp; hugo -t casper --uglyUrls=true
+</code></pre>
+
+<p>This means when I&rsquo;m ready to publish I simply do a <code>git push deploy</code>. It&rsquo;s
+awesome!</p>
+
+<h2 id="what-s-next">What&rsquo;s Next?</h2>
+
+<p>I decided that even though my one off python script worked, it didn&rsquo;t bring
+everything over. It missed the tags, for example. Also, it was Python and not
+Go, this felt out of spirit with the whole change. So with that in mind, I&rsquo;m
+working on a more comprehensive conversion tool in Go. I should have a write up
+all about it soon.</p>
+
+<p>I also think that I should look into setting up a cron job on my server that
+can run every night and rebuild my site, in case there was post that was setup
+with a scheduled post date, future date.</p>
+
+    </section>
+
+
+  <footer class="post-footer">
+
+
+    
+    <figure class="author-image">
+        <a class="img" href="http://caveconfessions.com/" style="background-image: url(http://caveconfessions.com/images/profile.png)"><span class="hidden">Joshua Barone's Picture</span></a>
+    </figure>
+    
+
+    
+
+
+
+
+
+<section class="author">
+  <h4><a href="http://caveconfessions.com/">Joshua Barone</a></h4>
+  
+  <p>Code Monkey / Security Aficionado</p>
+  
+  <div class="author-meta">
+    <span class="author-location icon-location">Louisiana, USA</span>
+    <span class="author-link icon-link"><a href="http://caveconfessions.com">http://caveconfessions.com</a></span>
+  </div>
+</section>
+
+
+
+    
+<section class="share">
+  <h4>Share this post</h4>
+  <a class="icon-twitter" style="font-size: 1.4em" href="https://twitter.com/share?text=Ghost%20to%20Hugo&amp;url=http%3a%2f%2fcaveconfessions.com%2fghost-to-hugo%2f"
+      onclick="window.open(this.href, 'twitter-share', 'width=550,height=235');return false;">
+      <span class="hidden">Twitter</span>
+  </a>
+  <a class="icon-facebook" style="font-size: 1.4em" href="https://www.facebook.com/sharer/sharer.php?u=http%3a%2f%2fcaveconfessions.com%2fghost-to-hugo%2f"
+      onclick="window.open(this.href, 'facebook-share','width=580,height=296');return false;">
+      <span class="hidden">Facebook</span>
+  </a>
+  <a class="icon-pinterest" style="font-size: 1.4em" href="http://pinterest.com/pin/create/button/?url=http%3a%2f%2fcaveconfessions.com%2fghost-to-hugo%2f&amp;description=Ghost%20to%20Hugo"
+      onclick="window.open(this.href, 'pinterest-share','width=580,height=296');return false;">
+      <span class="hidden">Pinterest</span>
+  </a>
+  <a class="icon-google-plus" style="font-size: 1.4em" href="https://plus.google.com/share?url=http%3a%2f%2fcaveconfessions.com%2fghost-to-hugo%2f"
+     onclick="window.open(this.href, 'google-plus-share', 'width=490,height=530');return false;">
+      <span class="hidden">Google+</span>
+  </a>
+</section>
+
+
+
+    
+
+<div id="disqus_thread"></div>
+<script type="text/javascript">
+  var disqus_shortname = 'caveconfessions';
+  var disqus_url = 'http:\/\/caveconfessions.com\/ghost-to-hugo\/';
+  (function() {
+    var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+    dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+    (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+  })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+
+
+
+
+  </footer>
+</article>
+
+</main>
+    <footer class="site-footer clearfix">
+        <section class="copyright"><a href="">Cave Confessions</a> All rights reserved - 2016</section>
+        
+        <section class="poweredby">Proudly generated by <a class="icon-hugo" href="http://gohugo.io">HUGO</a>, with <a class="icon-theme" href="https://github.com/vjeantet/hugo-theme-casper">Casper</a> theme</section>
+        
+    </footer>
+    </div>
+    <script type="text/javascript" src="http://caveconfessions.com/js/jquery.js"></script>
+    <script type="text/javascript" src="http://caveconfessions.com/js/jquery.fitvids.js"></script>
+    <script type="text/javascript" src="http://caveconfessions.com/js/index.js"></script>
+    
+</body>
+</html>
+
