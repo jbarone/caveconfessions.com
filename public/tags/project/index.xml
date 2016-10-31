@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Project on Cave Confessions</title>
+    <link>http://caveconfessions.com/tags/project/index.xml</link>
+    <description>Recent content in Project on Cave Confessions</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>All rights reserved - 2016</copyright>
+    <atom:link href="http://caveconfessions.com/tags/project/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>TADpole v0.1</title>
+      <link>http://caveconfessions.com/tadpole-v0-1/</link>
+      <pubDate>Fri, 25 Jul 2014 19:09:00 +0000</pubDate>
+      
+      <guid>http://caveconfessions.com/tadpole-v0-1/</guid>
+      <description>
+
+&lt;p&gt;Today is my birthday. so what did I do with this day? I decided to finally get around to releasing TADpole. TADpole is the tool I created as part of my master&amp;rsquo;s thesis &amp;ldquo;&lt;a href=&#34;http://scholarworks.uno.edu/td/1609/&#34; title=&#34;Automated Timeline Anomaly Detection&#34;&gt;Automated Timeline Anomaly Detection&lt;/a&gt;.&amp;rdquo; To be honest I&amp;rsquo;ve been hesitant to release this. I am a perfectionist and the code was written to prove out the research. But, I&amp;rsquo;m finally getting over my ego, and I present to you TADpole.&lt;/p&gt;
+
+&lt;h4 id=&#34;what-is-tadpole&#34;&gt;What is TADpole&lt;/h4&gt;
+
+&lt;p&gt;TADpole is tool designed to aide forensic investigators during the initial triage of a system. The purpose of the tool is to determine if the system clock of the machine had been purposefully manipulated. An example of manipulation in this case would be someone changing the clock back two weeks to alter accounting information, then resetting the clock to current time. Currently TADpole only works for Windows systems.&lt;/p&gt;
+
+&lt;h4 id=&#34;how-does-it-work&#34;&gt;How does it work&lt;/h4&gt;
+
+&lt;p&gt;TADpole searches each file on a forensic disk image looking for Windows event log files. It then looks for entries in the log files that are anomalous. Once these anomalies are found, they are then correlated across multiple log files to increase the certainty that this anomaly is a true anomaly and not a mistake in the log file.&lt;/p&gt;
+
+&lt;h4 id=&#34;where-can-you-get-it&#34;&gt;Where can you get it&lt;/h4&gt;
+
+&lt;p&gt;The source code is available on my GitHub page &lt;a href=&#34;https://github.com/jbarone/tadpole&#34; title=&#34;https://github.com/jbarone/tadpole&#34;&gt;https://github.com/jbarone/tadpole&lt;/a&gt;.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>
