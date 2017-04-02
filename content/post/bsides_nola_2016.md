@@ -7,7 +7,7 @@ image = "images/BSidesNOLA_2.png"
 menu = ""
 share = true
 slug = "bsides-nola-2016"
-tags = ["BSides", "speaking", "Pentration Testing"]
+tags = ["BSides", "speaking", "Penetration Testing"]
 title = "BSides NOLA 2016"
 
 +++
