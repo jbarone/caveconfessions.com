@@ -2,6 +2,11 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>http://caveconfessions.com/bsides-nola-2017/</loc>
+    <lastmod>2017-04-02T00:00:00-05:00</lastmod>
+  </url>
+  
+  <url>
     <loc>http://caveconfessions.com/sql-injection/</loc>
     <lastmod>2016-05-01T00:00:00-05:00</lastmod>
   </url>
@@ -47,11 +52,6 @@
   </url>
   
   <url>
-    <loc>http://caveconfessions.com/bsides-nola-2017/</loc>
-    <lastmod>2014-07-11T10:54:24+02:00</lastmod>
-  </url>
-  
-  <url>
     <loc>http://caveconfessions.com/welcome/</loc>
     <lastmod>2014-07-02T09:48:00+00:00</lastmod>
   </url>
@@ -64,7 +64,7 @@
   
   <url>
     <loc>http://caveconfessions.com/tags/bsides/</loc>
-    <lastmod>2016-04-22T18:05:56-05:00</lastmod>
+    <lastmod>2017-04-02T00:00:00-05:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -75,7 +75,7 @@
   
   <url>
     <loc>http://caveconfessions.com/</loc>
-    <lastmod>2016-05-01T00:00:00-05:00</lastmod>
+    <lastmod>2017-04-02T00:00:00-05:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -105,7 +105,7 @@
   
   <url>
     <loc>http://caveconfessions.com/tags/penetration-testing/</loc>
-    <lastmod>2016-05-01T00:00:00-05:00</lastmod>
+    <lastmod>2017-04-02T00:00:00-05:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -117,7 +117,7 @@
   
   <url>
     <loc>http://caveconfessions.com/post/</loc>
-    <lastmod>2016-05-01T00:00:00-05:00</lastmod>
+    <lastmod>2017-04-02T00:00:00-05:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -141,7 +141,7 @@
   
   <url>
     <loc>http://caveconfessions.com/tags/speaking/</loc>
-    <lastmod>2016-04-22T18:05:56-05:00</lastmod>
+    <lastmod>2017-04-02T00:00:00-05:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -182,7 +182,7 @@
   
   <url>
     <loc>http://caveconfessions.com/tags/web/</loc>
-    <lastmod>2014-07-11T10:54:24+02:00</lastmod>
+    <lastmod>2017-04-02T00:00:00-05:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -194,7 +194,7 @@
   
   <url>
     <loc>http://caveconfessions.com/tags/xss/</loc>
-    <lastmod>2014-07-11T10:54:24+02:00</lastmod>
+    <lastmod>2017-04-02T00:00:00-05:00</lastmod>
     <priority>0</priority>
   </url>
   

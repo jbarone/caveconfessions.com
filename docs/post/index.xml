@@ -7,8 +7,33 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>All rights reserved - 2016</copyright>
-    <lastBuildDate>Sun, 01 May 2016 00:00:00 -0500</lastBuildDate>
+    <lastBuildDate>Sun, 02 Apr 2017 00:00:00 -0500</lastBuildDate>
     <atom:link href="http://caveconfessions.com/post/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>BSides NOLA 2017</title>
+      <link>http://caveconfessions.com/bsides-nola-2017/</link>
+      <pubDate>Sun, 02 Apr 2017 00:00:00 -0500</pubDate>
+      
+      <guid>http://caveconfessions.com/bsides-nola-2017/</guid>
+      <description>&lt;p&gt;On April 1st I was honored by being able to speak again at
+&lt;a href=&#34;http://www.securitybsides.com/w/page/104051753/BSidesNOLA%202016&#34;&gt;BSides NOLA&lt;/a&gt;.
+There were so many wonderful talks, I really wish there are more mes so I could
+have attended them all.&lt;/p&gt;
+
+&lt;!-- more--&gt;
+
+&lt;p&gt;My Talk was focused on looking at XSS (Cross Site Scripting) and really digging
+into the harm that can really be done, when someone else can control your
+browser. If you missed it, booooo, it was an awesome talk. But, here are the
+slides if you want to see what I covered.&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Slides can be found &lt;a href=&#34;https://github.com/jbarone/Presentations/blob/master/XSS_to_alert_and_beyond/XSS_to_alert_and_beyond.pdf&#34;&gt;here&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Demo / Lab environment can be found &lt;a href=&#34;https://github.com/jbarone/xsslab&#34;&gt;here&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
     
     <item>
       <title>The Web&#39;s Most Wanted</title>
@@ -807,31 +832,6 @@ again.&lt;/p&gt;
 &lt;h4 id=&#34;where-can-you-get-it&#34;&gt;Where can you get it&lt;/h4&gt;
 
 &lt;p&gt;The source code is available on my GitHub page &lt;a href=&#34;https://github.com/jbarone/tadpole&#34; title=&#34;https://github.com/jbarone/tadpole&#34;&gt;https://github.com/jbarone/tadpole&lt;/a&gt;.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>BSides NOLA 2017</title>
-      <link>http://caveconfessions.com/bsides-nola-2017/</link>
-      <pubDate>Fri, 11 Jul 2014 10:54:24 +0200</pubDate>
-      
-      <guid>http://caveconfessions.com/bsides-nola-2017/</guid>
-      <description>&lt;p&gt;On April 1st I was honored by being able to speak again at
-&lt;a href=&#34;http://www.securitybsides.com/w/page/104051753/BSidesNOLA%202016&#34;&gt;BSides NOLA&lt;/a&gt;.
-There were so many wonderful talks, I really wish there are more mes so I could
-have attended them all.&lt;/p&gt;
-
-&lt;!-- more--&gt;
-
-&lt;p&gt;My Talk was focused on looking at XSS (Cross Site Scripting) and really digging
-into the harm that can really be done, when someone else can control your
-browser. If you missed it, booooo, it was an awesome talk. But, here are the
-slides if you want to see what I covered.&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Slides can be found &lt;a href=&#34;https://github.com/jbarone/Presentations/blob/master/XSS_to_alert_and_beyond/XSS_to_alert_and_beyond.pdf&#34;&gt;here&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;Demo / Lab environment can be found &lt;a href=&#34;https://github.com/jbarone/xsslab&#34;&gt;here&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
 </description>
     </item>
     
