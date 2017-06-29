@@ -1,4 +1,4 @@
-baseurl = "http://caveconfessions.com/"
+baseurl = "//caveconfessions.com/"
 languageCode = "en-us"
 title = "Cave Confessions"
 theme = "casper"
@@ -11,7 +11,7 @@ DisqusShortname = "caveconfessions"
     github = "jbarone"
     twitter = "tygarsai"
     thumbnail = "images/profile.png"
-    link = "http://caveconfessions.com"
+    link = "//caveconfessions.com"
 
 [params]
     # Date format, used by several themes
@@ -29,7 +29,7 @@ DisqusShortname = "caveconfessions"
     twitter = "tygarsai"
     email = "joshua.barone@gmail.com"
     hideHUGOSupport = false
-    authorwebsite = "http://caveconfessions.com"
+    authorwebsite = "//caveconfessions.com"
     blogHeader = "Cave Confessiosn"
     tagline = "Out of the mouths of caves"
 
