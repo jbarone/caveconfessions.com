@@ -5,7 +5,6 @@ theme = "casper"
 paginate = 5
 Copyright = "All rights reserved - 2016"
 DisqusShortname = "caveconfessions"
-publishDir = "docs"
 
 [author]
     name = "Joshua Barone"
