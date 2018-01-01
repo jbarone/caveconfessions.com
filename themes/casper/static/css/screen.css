@@ -1463,6 +1463,10 @@ body:not(.post-template) .post-title {
     float: left;
 }
 
+.footnotes {
+    font-size: 1rem;
+}
+
 
 /* ==========================================================================
    10. Media Queries - Smaller than 900px

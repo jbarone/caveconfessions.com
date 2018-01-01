@@ -3,7 +3,7 @@ languageCode = "en-us"
 title = "Cave Confessions"
 theme = "casper"
 paginate = 5
-Copyright = "All rights reserved - 2016"
+Copyright = "All rights reserved - 2018"
 DisqusShortname = "caveconfessions"
 
 [author]
@@ -29,7 +29,7 @@ DisqusShortname = "caveconfessions"
     twitter = "tygarsai"
     email = "joshua.barone@gmail.com"
     hideHUGOSupport = false
-    authorwebsite = "//caveconfessions.com"
+    authorwebsite = "https//caveconfessions.com"
     blogHeader = "Cave Confessiosn"
     tagline = "Out of the mouths of caves"
 
